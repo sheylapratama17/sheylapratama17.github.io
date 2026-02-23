@@ -146,7 +146,7 @@ body{
 		justify-content:center;
 		box-sizing:border-box;
 		width:auto;
-		background-color:#b0cfff;
+		background-color:yellow;
 		padding:1em 0em;
 	}
 	
@@ -171,3 +171,4 @@ body{
 		padding:1em 0em;
 	}
 }
+
