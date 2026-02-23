@@ -1,6 +1,6 @@
 trms=document.querySelector("#bawah img");
 trms.src="../gambar/logo2.png";
-trms.style.width="15%";
+trms.style.width="8%";
 
 async function getText(fileku) {
   let myObject = await fetch(fileku);
@@ -33,4 +33,5 @@ gambarLogo.style.margin="0px";
 diriku=document.querySelector("#ling #diriku");
 klg=document.querySelector("#ling #keluarga");
 klg.innerHTML="keluarga";
+
 diriku.innerHTML="diriku";
