@@ -1,4 +1,4 @@
-ow@font-face {
+@font-face {
   font-family: "font1";
   src: url("../font/Blue Winter.ttf");
 }
@@ -171,7 +171,3 @@ body{
 		padding:1em 0em;
 	}
 }
-
-
-
-
