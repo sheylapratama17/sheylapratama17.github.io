@@ -160,3 +160,15 @@ body{
 
 }
 
+@media (max-height: 400px) {
+	#bawah{
+		position:static;
+		bottom:0px;
+		left:0;
+		justify-content:center;
+		box-sizing:border-box;
+		width:auto;
+		background-color:#b0cfff;
+		padding:1em 0em;
+	}
+}
