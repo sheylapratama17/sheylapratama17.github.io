@@ -140,7 +140,7 @@ body{
 	}
 	
 	#bawah{
-		position:static;
+		position:fixed;
 		bottom:0px;
 		justify-content:center;
 		box-sizing:border-box;
@@ -156,4 +156,5 @@ body{
 	#konten1a {
 		text-align:center;
 	}
+
 }
