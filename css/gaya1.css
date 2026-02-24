@@ -19,7 +19,7 @@ body{
 	margin:0px;
 	padding:0px;
 	background-color:#f9f8f2;
-	background-image:url("../gambar/kucingPink.png"), url("../gambar/kucingBiru.png");
+	background-image:url("../gambar/kucingpink.png"), url("../gambar/kucingbiru.png");
 	background-repeat: no-repeat, no-repeat;
 	background-attachment: fixed, fixed;
 	background-size: 20%, 15%;
@@ -171,6 +171,7 @@ body{
 		padding:1em 0em;
 	}
 }
+
 
 
 
