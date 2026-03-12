@@ -1,0 +1,529 @@
+div#landing{
+	padding:0;
+	margin:0;
+	position:relative;
+	height:100%;
+	box-sizing: border-box
+}
+
+.landing1{
+	background-image:linear-gradient(to right, rgba(224, 165, 107, 1) 30%, rgba(224, 165, 107, 0)),url("../gambar/kereta1.jpeg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:0 0,12em 0;
+}
+
+
+#landing div:nth-child(1){
+	display:flex;
+	justify-content:center;
+	position:absolute;
+	top:2em;
+	width:30%;
+}
+
+#logo{
+	width:45%;
+}
+
+#konten1{
+	display:flex;
+	flex-direction:column;
+	position:relative;
+	top:15%;
+	left:0;
+	width:30%;
+	
+}
+
+#konten1 p:nth-child(1){
+	text-align:center;
+	font-size:6vw;
+	text-transform: capitalize;
+	font-family: "Allison", sans-serif;
+	color:0f0a0b;
+	font-weight:500;
+	margin:3vw 0;
+}
+
+#konten1 p:nth-child(2){
+	text-align:center;
+	padding:1% 0;
+	font-family: "Exo", sans-serif;
+	margin:auto;
+	font-size:1vw;
+	width:80%;
+}
+
+#konten1 input{
+	background-color:0f0a0b;
+	padding:1vw 5vw;
+	border-radius:8vw;
+	border:none;
+	margin:4em auto;
+	font-family: "Exo", sans-serif;
+	font-size:1.2vw;
+	color:d2b3a9;
+	letter-spacing: 1vw;
+	text-align:center;
+	font-weight:450;
+	transition:0.3s;
+}
+
+#konten1 input:hover{
+	background-color:70786c;
+}
+
+.sponsor{
+	display:flex;
+	flex-direction:row;
+	align-items: center;
+	justify-content:center;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	margin:auto;
+	background-color:rgba(255, 255, 255,0);
+	backdrop-filter:blur(5px);
+}
+
+.sponsor p{
+	font-family: "Exo", sans-serif;
+	padding:0 1vw;
+	text-align:center;
+}
+
+.sponsor img{
+	width:6vw;
+	padding:0 1vw;
+}
+
+@media (max-width:1024px){
+	#konten1{
+		top:30%;
+	}
+	
+	#logo{
+		width:45%;
+	}
+}
+
+@media (max-height:450px) and (orientation:landscape){
+	#konten1{
+		display:flex;
+		flex-direction:column;
+		position:relative;
+		top:15%;
+		left:0;
+		width:30%;
+		
+	}
+	konten1 p:nth-child(1){
+		text-align:center;
+		font-size:6vw;
+		text-transform: capitalize;
+		font-family: "Allison", sans-serif;
+		color:0f0a0b;
+		font-weight:500;
+		margin:3vw 0;
+	}
+
+	#konten1 p:nth-child(2){
+		text-align:center;
+		padding:1% 0;
+		font-family: "Exo", sans-serif;
+		margin:auto;
+		font-size:1vw;
+		width:80%;
+	}
+
+	#konten1 input{
+		background-color:0f0a0b;
+		padding:1vw 4vw;
+		border-radius:8vw;
+		border:none;
+		margin:4em auto;
+		font-family: "Exo", sans-serif;
+		font-size:0.8vw;
+		color:d2b3a9;
+		letter-spacing: 1vw;
+		text-align:center;
+		font-weight:450;
+		transition:0.3s;
+	}
+	
+	.sponsor p{
+		font-size:1vw;
+	}
+}
+
+@media (max-width:800px) and (orientation:portrait){
+	.landing1{
+		background-image:linear-gradient(to top, rgba(192, 132, 54, 1) 30%, rgba(192, 132, 54, 0)),url("../gambar/kereta4.jpeg");
+		background-position:0 0,center;
+	}
+	#landing div:nth-child(1){
+		display:flex;
+		justify-content:center;
+		position:absolute;
+		top:2em;
+		/*background-color:red;*/
+		width:100%;
+	}
+
+	#logo{
+		width:20%;
+	}
+
+	#konten1{
+		display:flex;
+		flex-direction:column;
+		position:relative;
+		top:30%;
+		left:0;
+		width:100%;
+	}
+
+	#konten1 p:nth-child(1){
+		text-align:center;
+		font-size:10vw;
+		text-transform: capitalize;
+		font-family: "Allison", sans-serif;
+		color:0f0a0b;
+		font-weight:500;
+		margin:3vw 0;
+	}
+
+	#konten1 p:nth-child(2){
+		text-align:center;
+		padding:1% 0;
+		font-family: "Exo", sans-serif;
+		margin:auto;
+		font-size:1.5vw;
+		width:45%;
+	}
+
+	#konten1 input{
+		background-color:0f0a0b;
+		padding:1.5vw 12vw;
+		border-radius:8vw;
+		border:none;
+		margin:4em auto;
+		font-family: "Exo", sans-serif;
+		font-size:2vw;
+		color:d2b3a9;
+		letter-spacing: 1vw;
+		text-align:center;
+		font-weight:650;
+		transition:0.3s;
+	}
+
+	#konten1 input:hover{
+		background-color:70786c;
+	}
+	
+	.sponsor{
+		display:flex;
+		flex-direction:row;
+		align-items: center;
+		justify-content:center;
+		position:absolute;
+		bottom:0;
+		width:100%;
+		margin:auto;
+		background-color:rgba(255, 255, 255,0);
+		backdrop-filter:blur(5px);
+		padding:1em 0;
+	}
+
+	.sponsor p{
+		font-family: "Exo", sans-serif;
+		padding:0 1vw;
+		text-align:center;
+		font-size:2vw;
+	}
+
+	.sponsor img{
+		width:6vw;
+		padding:0 1vw;
+	}
+}
+
+
+@media (max-width:950px) and (orientation:portrait) {
+	.landing1{
+		background-image:linear-gradient(to top, rgba(192, 132, 54, 1) 30%, rgba(192, 132, 54, 0)),url("../gambar/kereta4.jpeg");
+		background-position:0 0,center;
+	}
+	#landing div:nth-child(1){
+		display:flex;
+		justify-content:center;
+		position:absolute;
+		top:2em;
+		/*background-color:red;*/
+		width:100%;
+	}
+
+	#logo{
+		width:20%;
+	}
+
+	#konten1{
+		display:flex;
+		flex-direction:column;
+		position:relative;
+		top:30%;
+		left:0;
+		width:100%;
+	}
+
+	#konten1 p:nth-child(1){
+		text-align:center;
+		font-size:10vw;
+		text-transform: capitalize;
+		font-family: "Allison", sans-serif;
+		color:0f0a0b;
+		font-weight:500;
+		margin:3vw 0;
+	}
+
+	#konten1 p:nth-child(2){
+		text-align:center;
+		padding:1% 0;
+		font-family: "Exo", sans-serif;
+		margin:auto;
+		font-size:1.5vw;
+		width:45%;
+	}
+
+	#konten1 input{
+		background-color:0f0a0b;
+		padding:1.5vw 12vw;
+		border-radius:8vw;
+		border:none;
+		margin:4em auto;
+		font-family: "Exo", sans-serif;
+		font-size:2vw;
+		color:d2b3a9;
+		letter-spacing: 1vw;
+		text-align:center;
+		font-weight:650;
+		transition:0.3s;
+	}
+
+	#konten1 input:hover{
+		background-color:70786c;
+	}
+	
+	.sponsor{
+		display:flex;
+		flex-direction:row;
+		align-items: center;
+		justify-content:center;
+		position:absolute;
+		bottom:0;
+		width:100%;
+		margin:auto;
+		background-color:rgba(255, 255, 255,0);
+		backdrop-filter:blur(5px);
+		padding:1em 0;
+	}
+
+	.sponsor p{
+		font-family: "Exo", sans-serif;
+		padding:0 1vw;
+		text-align:center;
+		font-size:2vw;
+	}
+
+	.sponsor img{
+		width:6vw;
+		padding:0 1vw;
+	}
+}
+
+@media (max-height:1400px) and (orientation:portrait) {
+	.landing1{
+		background-image:linear-gradient(to top, rgba(192, 132, 54, 1) 30%, rgba(192, 132, 54, 0)),url("../gambar/kereta4.jpeg");
+		background-position:0 0,center;
+	}
+	#landing div:nth-child(1){
+		display:flex;
+		justify-content:center;
+		position:absolute;
+		top:2em;
+		/*background-color:red;*/
+		width:100%;
+	}
+
+	#logo{
+		width:20%;
+	}
+
+	#konten1{
+		display:flex;
+		flex-direction:column;
+		position:relative;
+		top:30%;
+		left:0;
+		width:100%;
+	}
+
+	#konten1 p:nth-child(1){
+		text-align:center;
+		font-size:10vw;
+		text-transform: capitalize;
+		font-family: "Allison", sans-serif;
+		color:0f0a0b;
+		font-weight:500;
+		margin:3vw 0;
+	}
+
+	#konten1 p:nth-child(2){
+		text-align:center;
+		padding:1% 0;
+		font-family: "Exo", sans-serif;
+		margin:auto;
+		font-size:1.5vw;
+		width:45%;
+	}
+
+	#konten1 input{
+		background-color:0f0a0b;
+		padding:1.5vw 12vw;
+		border-radius:8vw;
+		border:none;
+		margin:4em auto;
+		font-family: "Exo", sans-serif;
+		font-size:2vw;
+		color:d2b3a9;
+		letter-spacing: 1vw;
+		text-align:center;
+		font-weight:650;
+		transition:0.3s;
+	}
+
+	#konten1 input:hover{
+		background-color:70786c;
+	}
+	
+	.sponsor{
+		display:flex;
+		flex-direction:row;
+		align-items: center;
+		justify-content:center;
+		position:absolute;
+		bottom:0;
+		width:100%;
+		margin:auto;
+		background-color:rgba(255, 255, 255,0);
+		backdrop-filter:blur(5px);
+		padding:1em 0;
+	}
+
+	.sponsor p{
+		font-family: "Exo", sans-serif;
+		padding:0 1vw;
+		text-align:center;
+		font-size:2vw;
+	}
+
+	.sponsor img{
+		width:6vw;
+		padding:0 1vw;
+	}
+}
+
+@media (max-width:500px) and (orientation:portrait){
+	.landing1{
+		background-image:linear-gradient(to bottom, rgba(1, 138, 186, 1) 40%, rgba(1, 138, 186, 0)),url("../gambar/kereta2.jpeg");
+		background-position:0 0,0 8em;
+	}
+	#landing div:nth-child(1){
+		display:flex;
+		justify-content:center;
+		position:absolute;
+		top:2em;
+		/*background-color:red;*/
+		width:100%;
+	}
+
+	#logo{
+		width:20%;
+	}
+
+	#konten1{
+		display:flex;
+		flex-direction:column;
+		position:relative;
+		top:30%;
+		left:0;
+		width:100%;
+	}
+
+	#konten1 p:nth-child(1){
+		text-align:center;
+		font-size:15vw;
+		text-transform: capitalize;
+		font-family: "Allison", sans-serif;
+		color:0f0a0b;
+		font-weight:500;
+		margin:3vw 0;
+	}
+
+	#konten1 p:nth-child(2){
+		text-align:center;
+		padding:1% 0;
+		font-family: "Exo", sans-serif;
+		margin:auto;
+		font-size:2.5vw;
+		width:45%;
+	}
+
+	#konten1 input{
+		background-color:0f0a0b;
+		padding:1.5vw 12vw;
+		border-radius:8vw;
+		border:none;
+		margin:4em auto;
+		font-family: "Exo", sans-serif;
+		font-size:2vw;
+		color:d2b3a9;
+		letter-spacing: 1vw;
+		text-align:center;
+		font-weight:650;
+		transition:0.3s;
+	}
+
+	#konten1 input:hover{
+		background-color:70786c;
+	}
+	
+	.sponsor{
+		display:grid;
+		grid-template-columns: repeat(3, 1fr);
+		justify-content: space-around;
+		position:absolute;
+		bottom:0;
+		width:100%;
+		margin:auto;
+		background-color:rgba(255, 255, 255,0);
+		backdrop-filter:blur(5px);
+		padding:1em 0;
+		gap:1em;
+	}
+
+	.sponsor p{
+		font-family: "Exo", sans-serif;
+		padding:0 1vw;
+		text-align:center;
+		grid-column-start:1;
+		grid-column-end:4;
+	}
+
+	.sponsor img{
+		width:12vw;
+		justify-self: center;
+	}
+	
+}
